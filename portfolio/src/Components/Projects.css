@@ -1,0 +1,108 @@
+.main{
+    margin: 100px 0;
+    box-sizing: border-box;
+
+}
+.projects{
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(5, 5, 82);
+    display: inline;
+    margin: 100px;
+    border-bottom: 4px solid rgb(5,5,82);
+}
+
+.myproject{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-rows: repeat(auto,400px); */
+    gap:100px ;
+    /* width: 100%; */
+    margin: 60px 250px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.miniproject{
+    border-radius: 20px;
+    text-align: left;
+    /* padding-left: 20px; */
+    box-sizing: border-box;
+    max-height: auto;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.miniproject img{
+    width: 100%;
+    height: 50%;
+    /* transition: all; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+
+
+
+}
+
+.miniproject img:hover{
+   transform:  scale( 1.01);
+}
+.miniproject h1{
+    font-size: 35px;
+    font-weight: 500;
+    padding-left: 20px;
+    color: rgb(34, 31, 31);
+}
+
+.firstpara{
+    color:rgb(34, 31, 31) ;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.teams{
+    
+    color:rgb(34, 31, 31) ;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 400;
+}
+.stacks{
+    font-size: 20px;
+    color: rgba(34,31,31);
+    padding-left: 20px;
+}
+
+.resumeBtn{
+
+    text-align: left;
+}
+.resumeBtn{
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 82);
+    /* margin-top: 30px; */
+margin: 0 20px 10px 10px;
+    
+}
+.resumeBtn a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    
+}
+.resumeBtn:hover{
+    background-color: white;
+    border: 1px solid rgb(71, 68, 68);
+
+}
+
+.resumeBtn a:hover{
+    color: rgb(34,31,31);
+}
+
+
+ 

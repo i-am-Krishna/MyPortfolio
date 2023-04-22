@@ -1,0 +1,115 @@
+.home{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    padding:   100px 0 ;
+    /* border: 1px solid blue; */
+
+}
+.leftSide{
+/* border: 1px solid black; */
+width: 40%;
+}
+.rightSide div{
+    height: 24rem;
+    width: 24rem;
+    border-radius: 50%;
+    /* border: 1px solid green; */
+
+}
+.rightSide div img{
+    height: 100%;
+    width: 100%;
+    /* border: 5px solid red; */
+    border-radius: 50%;
+    
+
+}
+
+.fonts{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(28, 25, 25);
+    text-align: left;
+}
+.fonts span{
+    color: rgb(41, 41, 79);
+}
+.resumeBtn{
+width: 110px;
+    text-align: left;
+    color: white;
+    background-color: white;
+}
+.resumeBtn:hover{
+    background-color: white;
+    border: none;
+}
+.resumeBtn button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 82);
+    /* margin-top: 30px; */
+    
+}
+.resumeBtn button a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+}
+.resumeBtn button:hover{
+    background-color: white;
+    border: 1px solid rgb(5,5,82);
+}
+
+.resumeBtn button a:hover{
+    color: rgb(5, 5, 82);
+}
+.social-media{
+    text-align: left;
+    margin-top: 50px;
+}
+.social-media button{
+    border: none;
+    background-color: white;
+}
+
+.social-media button a img{
+    width: 40px;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+ 
+@media only screen and (max-width: 600px) {
+
+    .home{
+        display: block;
+        margin: auto;
+        text-align: center;
+        border: 1px solid black;
+    }
+
+
+    
+
+        
+.fonts{
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(28, 25, 25);
+    text-align: center;
+}
+.fonts span{
+    color: rgb(41, 41, 79);
+}
+.resumeBtn{
+width: 110px;
+    text-align: left;
+    color: white;
+    background-color: white;
+}
+}
